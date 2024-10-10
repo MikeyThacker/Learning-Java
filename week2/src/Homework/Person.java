@@ -1,21 +1,23 @@
 package Homework;
 
+import static java.lang.Math.abs;
+
 public class Person {
     private String name;
     private String location;
 
     private String getName(){
-        return this.name;
+        return name;
     }
     public void setName( String newName){
-        this.name = newName;
+        name = newName;
     }
 
     private String getLocation(){
-        return this.location;
+        return location;
     }
     public void setLocation(String newLocation){
-        this.location = newLocation;
+        location = newLocation;
     }
 
     public Person(String name, String location){
@@ -26,6 +28,11 @@ public class Person {
     public void printDetails(){
         System.out.println(getName() + ", " + getLocation());
     }
+
+    public double distanceTo(Person other) {
+        return abs(this.location.length() - other.getLocation().length());
+    }
+
 
     public static void main(String[] args){
         Person person = new Person("John", "Birmingham");
