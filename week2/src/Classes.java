@@ -1,12 +1,12 @@
-public class Classes {
-    public void DefiningAClass() {
+class Classes {
+    void DefiningAClass() {
         /*
         <Optional access specifier> <keyword "class"> <legal identifier (class name)>
         Access specifier defaults to protected if not specified
         */
     }
 
-    public void InstanceVariables() {
+    void InstanceVariables() {
         /*
         e.g., weapon class
         String name;
@@ -17,7 +17,7 @@ public class Classes {
          */
     }
 
-    public void partsOfAClass() {
+    void partsOfAClass() {
         /*
         Three different types of methods in a class:
         Mutator method - set or change method
@@ -29,7 +29,7 @@ public class Classes {
          */
     }
 
-    public void StaticMethods() {
+    void StaticMethods() {
         /*
         Nonstatic methods are used with object instantiations called instance methods
         Static methods are linked to a class and not the object instance
@@ -37,7 +37,7 @@ public class Classes {
          */
     }
 
-    public void InstantiatingObjects() {
+    void InstantiatingObjects() {
         /*
         To create an object that is an instance of a class:
         - Supply a type and identifier
@@ -47,7 +47,7 @@ public class Classes {
          */
     }
 
-    public void dataHiding() {
+    void dataHiding() {
         /*
         Encapsulation is also known as data hiding
         Data fields should be private and inaccessible from a client (other class)
@@ -56,7 +56,7 @@ public class Classes {
          */
     }
 
-    public void constructor() {
+    void constructor() {
         /*
         Constructs an object
         Java automatically creates a default constructor with no arguments for us.
@@ -71,13 +71,13 @@ public class Classes {
          */
     }
 
-    public void theThisReference(){
+    void theThisReference() {
         /*
         The "this" reference is used in a constructor to differentiate between the parameters and data in the object
          */
     }
 
-    public void usingStaticFields() {
+    void usingStaticFields() {
         /*
         Nonstatic fields are copied for each instance of the class
         If you create 50 instances, you get 50 different variables
@@ -91,7 +91,7 @@ public class Classes {
          */
     }
 
-    public void builtInClasses(){
+    void builtInClasses() {
         /*
         e.g.,
         java.lang - implicitly imported into every program - contains fundamental classes
@@ -100,7 +100,7 @@ public class Classes {
          */
     }
 
-    public void composition() {
+    void composition() {
         /*
         Composition is when one class is a data field of another class
         This object needs to have its values set up like any other class
@@ -109,7 +109,7 @@ public class Classes {
         --- Nested classes ---
         A class containing another class
         Static member classes have access to all static methods of the top-level class
-        Nonstatic methods of the inner class require an instance and have access to all data and methods of the top-level acalass
+        Nonstatic methods of the inner class require an instance and have access to all data and methods of the top-level class
         Local classes are local to a block
          */
     }
