@@ -31,6 +31,24 @@ public class ConditionalStatements {
          */
     }
 
+    void elseIFStatement() {
+        /*
+        Better to Use an else-if statement to stop range error and unnecessary indentation
+
+        if (<condition>) {
+            <code to execute if true>
+        } else if (<condition> {
+         <code to execute if next condition is true>
+         } else if (<condition> {
+         <code to execute if next condition is true>
+         } else {
+         <code to execute if false>
+         }
+
+         You can have as many else-if statements as you want
+         */
+    }
+
     void logicalOperators(){
         /*
         &&: AND
