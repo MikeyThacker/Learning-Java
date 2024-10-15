@@ -45,7 +45,7 @@ public class ConditionalStatements {
          <code to execute if false>
          }
 
-         You can have as many else-if statements as you want
+         You can have as many else-if statements as you want.
          */
     }
 
