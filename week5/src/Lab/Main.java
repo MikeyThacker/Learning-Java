@@ -13,6 +13,6 @@ public class Main {
         System.out.println(x.toString());
         System.out.println(y.toString());
 
-        System.out.println(x.fitness() + "\n");
+        System.out.println(x.fitness());
     }
 }
