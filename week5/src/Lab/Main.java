@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Chromosome x = new Chromosome(10, new Random());
+        Chromosome x = new Chromosome(15, new Random());
         System.out.println(x.toString());
 
         x.Mutate();
