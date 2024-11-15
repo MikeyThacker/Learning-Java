@@ -48,4 +48,9 @@ public class Arrays {
         String[][] map = new String[5][5];
          */
     }
+
+    public static void main(String[] args) {
+        String[] chars = new String[5];
+        chars[0] = "i";
+    }
 }
