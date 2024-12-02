@@ -77,7 +77,7 @@ public class Streams {
 
     void commonPitfalls() {
         /*
-        Running multiple terminal operations can cause exceptions
+        Running multiple terminal operations can cause exceptions - e.g., toList() and then .reduce(0,...)
         Misusing infinite streams
         Forgetting laziness of intermediate operations
          */
